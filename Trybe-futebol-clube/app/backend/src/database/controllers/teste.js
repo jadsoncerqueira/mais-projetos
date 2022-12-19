@@ -1,0 +1,136 @@
+// const teste1 = [
+//   {
+//     name: 'Santos',
+//     totalPoints: 9,
+//     totalGames: 3,
+//     totalVictories: 3,
+//     totalDraws: 0,
+//     totalLosses: 0,
+//     goalsFavor: 9,
+//     goalsOwn: 3,
+//     goalsBalance: 6,
+//     efficiency: 100.00,
+//   },
+//   {
+//     name: 'Santos',
+//     totalPoints: 9,
+//     totalGames: 3,
+//     totalVictories: 3,
+//     totalDraws: 0,
+//     totalLosses: 0,
+//     goalsFavor: 9,
+//     goalsOwn: 3,
+//     goalsBalance: 6,
+//     efficiency: 100.00,
+//   },
+//   {
+//     name: 'Santos',
+//     totalPoints: 9,
+//     totalGames: 3,
+//     totalVictories: 3,
+//     totalDraws: 0,
+//     totalLosses: 0,
+//     goalsFavor: 9,
+//     goalsOwn: 3,
+//     goalsBalance: 6,
+//     efficiency: 100.00,
+//   },
+//   {
+//     name: 'Santos',
+//     totalPoints: 2,
+//     totalGames: 2,
+//     totalVictories: 0,
+//     totalDraws: 2,
+//     totalLosses: 0,
+//     goalsFavor: 3,
+//     goalsOwn: 3,
+//     goalsBalance: 0,
+//     efficiency: 33.33,
+//   },
+//   {
+//     name: 'Santos',
+//     totalPoints: 2,
+//     totalGames: 2,
+//     totalVictories: 0,
+//     totalDraws: 2,
+//     totalLosses: 0,
+//     goalsFavor: 3,
+//     goalsOwn: 3,
+//     goalsBalance: 0,
+//     efficiency: 33.33,
+//   },
+// ];
+
+// const teste2 = [
+//   {
+//     name: 'Santos',
+//     totalPoints: 9,
+//     totalGames: 3,
+//     totalVictories: 3,
+//     totalDraws: 0,
+//     totalLosses: 0,
+//     goalsFavor: 9,
+//     goalsOwn: 3,
+//     goalsBalance: 6,
+//     efficiency: 100.00,
+//   },
+//   {
+//     name: 'Santos',
+//     totalPoints: 9,
+//     totalGames: 3,
+//     totalVictories: 3,
+//     totalDraws: 0,
+//     totalLosses: 0,
+//     goalsFavor: 9,
+//     goalsOwn: 3,
+//     goalsBalance: 6,
+//     efficiency: 100.00,
+//   },
+//   {
+//     name: 'Santos',
+//     totalPoints: 9,
+//     totalGames: 3,
+//     totalVictories: 3,
+//     totalDraws: 0,
+//     totalLosses: 0,
+//     goalsFavor: 9,
+//     goalsOwn: 3,
+//     goalsBalance: 6,
+//     efficiency: 100.00,
+//   },
+//   {
+//     name: 'Santos',
+//     totalPoints: 2,
+//     totalGames: 2,
+//     totalVictories: 0,
+//     totalDraws: 2,
+//     totalLosses: 0,
+//     goalsFavor: 3,
+//     goalsOwn: 3,
+//     goalsBalance: 0,
+//     efficiency: 33.33,
+//   },
+//   {
+//     name: 'Santos',
+//     totalPoints: 2,
+//     totalGames: 2,
+//     totalVictories: 0,
+//     totalDraws: 2,
+//     totalLosses: 0,
+//     goalsFavor: 3,
+//     goalsOwn: 3,
+//     goalsBalance: 0,
+//     efficiency: 33.33,
+//   },
+// ];
+
+// const removeDuplicate = (results, att) => {
+//   const setPerson = new Set();
+//   return results.filter((per) => {
+//     const duplicatedPerson = setPerson.has(per[att]);
+//     setPerson.add(per[att]);
+//     return !duplicatedPerson;
+//   });
+// };
+
+// console.log(removeDuplicate(teste1, 'efficiency'));
