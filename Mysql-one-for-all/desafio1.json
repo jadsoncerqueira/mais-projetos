@@ -1,0 +1,16 @@
+{
+  "tabela_usuario": "tabela_usuario",
+  "coluna_usuario": "coluna_usuario",
+  "tabela_plano": "tabela_plano",
+  "coluna_plano": "coluna_plano",
+  "tabela_historico_de_reproducoes": "tabela_historico_de_reproducoes",
+  "coluna_historico_de_reproducoes": "coluna_historico_de_reproducoes",
+  "tabela_seguindo_artistas": "tabela_seguindo_artistas",
+  "coluna_seguindo_artistas": "coluna_seguindo_artistas",
+  "tabela_artista": "tabela_artista",
+  "coluna_artista": "coluna_artista",
+  "tabela_album": "tabela_album",
+  "coluna_album": "coluna_album",
+  "tabela_cancoes": "tabela_cancoes",
+  "coluna_cancoes": "coluna_cancoes"
+}

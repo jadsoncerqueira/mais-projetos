@@ -1,0 +1,163 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+#img {
+  margin-top: 10px;
+}
+
+#evaluation-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.trybewarts-login {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#campoEmail {
+  margin-bottom: 5px;
+}
+
+#campoSenha {
+  margin-bottom: 5px;
+}
+
+#section-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#trybewarts-forms-logo {
+  display: none;
+}
+
+#input-name , #input-lastname , #input-email , #house {
+  width: 200px;
+}
+
+#conteudo-principal {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nome-sobrenome , .email-house {
+  display: flex;
+  flex-direction: column;
+}
+
+#lh {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#house {
+  margin-bottom: 20px;
+}
+
+#label-family {
+  margin-top: 20px;
+}
+
+#fs , #bk , #ft {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+#div {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  display: none;
+}
+
+#label-content , #div-check {
+  display: flex;
+  max-width: 300px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#label-rate {
+  margin-top: 10px;
+}
+
+#aval {
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.subject {
+  margin: 0 5px 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textarea {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#textarea {
+  width: 300px;
+  height: 100px;
+}
+
+#counter {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#label-infos {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+#submit-btn {
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
