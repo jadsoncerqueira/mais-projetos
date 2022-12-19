@@ -1,0 +1,46 @@
+body {
+  background-color: #c6f8c6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  background-color: #9fc29f;
+  padding: 20px;
+  border-radius: 8px;
+  border: 3px solid #0a410a;
+}
+
+#reset-pontuacao , #reset-game {
+  border: none;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 2px;
+  background-color: #0a410a;
+  color: white;
+  font-weight: 600;
+}
+
+#pontuacao {
+  font-weight: 600;
+}
+
+#rgb-color {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0.001;
+}

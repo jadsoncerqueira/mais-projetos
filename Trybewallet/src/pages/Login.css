@@ -1,0 +1,39 @@
+.inputs {
+  border: 1px solid rgb(83, 82, 82);
+  display: block;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  width: 300px;
+}
+
+.botao {
+  border: 1px solid rgb(83, 82, 82);
+  display: block;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  padding-left: 10px;
+  width: 300px;
+}
+
+.formulario {
+  margin: auto;
+  padding-top: 15%;
+  width: 350px;
+}
+
+.field {
+  padding: 10px;
+}
+
+.erros {
+  color: red;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.legenda {
+  padding: 0 5px;
+  text-align: center;
+}
