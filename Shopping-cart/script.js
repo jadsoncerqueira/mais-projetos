@@ -80,11 +80,13 @@ const createProductItemElement = ({ sku, name, image }) => {
 const setProduto = async () => {
   const itemsPagina = document.querySelector('.items');
   const resultado = await fetchProducts('computador');
+  console.log(resultado);
   itemsPagina.innerHTML = '';
   resultado.results.forEach((elem) => {
+    const aux = elem.thumbnail.replace('I', 'II');
     const sku = elem.id;
     const name = elem.title;
-    const image = elem.thumbnail;
+    const image = aux;
     itemsPagina.appendChild(createProductItemElement(
       { sku, name, image },
     ));
